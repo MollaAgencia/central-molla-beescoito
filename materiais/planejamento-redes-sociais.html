@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<script src="../assets/guarda.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Beescoito · Planejamento de Redes Sociais · Molla</title>
+<link rel="icon" href="../assets/beescoito-selo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100,400..900;125,700..900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1E242C; --navy:#222A35; --navy-deep:#1A212B; --paper:#FFFFFF; --bg:#F5F5F2;
+    --soft:#69717C; --soft-light:#9AA1AB; --line:#E5E3DC;
+    --orange:#FF7A33; --orange-deep:#E05E14; --orange-chip:#FFF1E8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:"Inter",Arial,sans-serif;color:var(--ink);background:var(--bg);min-height:100vh;-webkit-font-smoothing:antialiased;}
+  .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 32px;}
+  .hero{position:relative;overflow:hidden;background:var(--navy-deep);color:#fff;}
+  .hero::before{content:"";position:absolute;left:-240px;top:-280px;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle, rgba(255,122,51,.22) 0%, rgba(255,122,51,0) 62%);pointer-events:none;}
+  .hero > *{position:relative;z-index:1;}
+  .stripe{height:6px;background:linear-gradient(90deg,var(--orange),var(--orange-deep));}
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:18px;padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.08);}
+  .bar .molla{height:28px;width:auto;display:block;}
+  .intro{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding-top:44px;padding-bottom:44px;flex-wrap:wrap;}
+  .chip{display:inline-block;background:rgba(255,122,51,.14);color:var(--orange);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:800;padding:7px 16px;border-radius:999px;}
+  h1{margin-top:16px;font-family:"Archivo",sans-serif;font-weight:850;font-size:clamp(30px,4.2vw,48px);line-height:1.04;letter-spacing:-.015em;}
+  h1 em{font-style:normal;color:var(--orange);}
+  .lead{margin-top:12px;max-width:560px;font-size:15.5px;line-height:1.55;color:rgba(255,255,255,.72);}
+  .dl{display:inline-flex;align-items:center;gap:9px;height:46px;padding:0 20px;border-radius:12px;text-decoration:none;color:#fff;font-weight:800;font-size:14px;
+    background:linear-gradient(90deg,var(--orange),var(--orange-deep));box-shadow:0 10px 24px rgba(224,94,20,.28);transition:filter .2s;}
+  .dl:hover{filter:brightness(1.05);}
+  .dl:focus-visible{outline:3px solid rgba(255,122,51,.5);outline-offset:2px;}
+  .dl svg{width:17px;height:17px;}
+  main{padding:40px 0 64px;}
+  .pages{display:flex;flex-direction:column;gap:28px;}
+  .pg{background:var(--paper);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 14px 34px rgba(26,33,43,.08);}
+  .pg img{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#fff;}
+  .pg figcaption{padding:10px 16px;font-size:11px;letter-spacing:.2em;font-weight:800;color:var(--soft-light);border-top:1px solid var(--line);text-align:right;}
+  footer{border-top:1px solid var(--line);background:var(--paper);}
+  footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:22px;padding-bottom:22px;flex-wrap:wrap;}
+  footer img{height:20px;width:auto;display:block;}
+  footer span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:var(--soft-light);}
+  @media (max-width:640px){
+    .wrap{padding:0 16px;}
+    .bar .molla{height:22px;}
+    .intro{padding-top:32px;padding-bottom:32px;}
+    main{padding-top:24px;}
+    .pages{gap:16px;}
+    .pg{border-radius:10px;}
+  }
+  @media print{
+    .hero,footer{display:none;}
+    main{padding:0;} .wrap{max-width:none;padding:0;}
+    .pages{gap:0;} .pg{border:0;border-radius:0;box-shadow:none;break-after:page;} .pg figcaption{display:none;}
+  }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="stripe"></div>
+    <div class="wrap bar">
+      <img class="molla" src="../assets/molla-branca.png" alt="Molla">
+      <div id="guarda-barra"></div>
+    </div>
+    <div class="wrap intro">
+      <div>
+        <span class="chip">Beescoito · Planejamento</span>
+        <h1>Planejamento de <em>redes sociais</em></h1>
+        <p class="lead">Quem decide o coffee break da empresa e as seis histórias que vamos contar sobre a Beescoito no Instagram.</p>
+      </div>
+      <a class="dl" href="planejamento-redes-sociais/Beescoito_Planejamento_Redes_Sociais_Molla.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/></svg>
+        Baixar PDF
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap pages">
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-01.jpg" alt="Página 1 do planejamento" width="1920" height="1080"><figcaption>01 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-02.jpg" alt="Página 2 do planejamento" width="1920" height="1080"><figcaption>02 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-03.jpg" alt="Página 3 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>03 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-04.jpg" alt="Página 4 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>04 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-05.jpg" alt="Página 5 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>05 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-06.jpg" alt="Página 6 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>06 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-07.jpg" alt="Página 7 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>07 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-08.jpg" alt="Página 8 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>08 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-09.jpg" alt="Página 9 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>09 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-10.jpg" alt="Página 10 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>10 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-11.jpg" alt="Página 11 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>11 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-12.jpg" alt="Página 12 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>12 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-13.jpg" alt="Página 13 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>13 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-14.jpg" alt="Página 14 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>14 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-15.jpg" alt="Página 15 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>15 / 16</figcaption></figure>
+      <figure class="pg"><img src="planejamento-redes-sociais/pagina-16.jpg" alt="Página 16 do planejamento" width="1920" height="1080" loading="lazy"><figcaption>16 / 16</figcaption></figure>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <img src="../assets/molla-laranja.png" alt="Molla">
+      <span>Central do Cliente · Agência Molla</span>
+    </div>
+  </footer>
+</body>
+</html>

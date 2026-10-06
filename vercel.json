@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/diagnostico", "destination": "/materiais/diagnostico-plano-midia-paga", "permanent": false },
+    { "source": "/planejamento", "destination": "/materiais/planejamento-redes-sociais", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/(.*)", "headers": [ { "key": "X-Robots-Tag", "value": "noindex, nofollow" } ] }
+  ]
+}
